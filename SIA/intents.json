@@ -1,0 +1,486 @@
+{
+    "intents": [
+
+      {
+         "tags": "greeting",
+        "patterns": ["hello", "hii" , "wake up" , "sia"],
+
+        "responses": [ "hello sir" ,"how are you sir", "always for you sir" , "hii sir"]
+      },
+
+      {
+         "tags": "bye",
+        "patterns": ["bye ", "tata" , "good bye" , "see you later" , "sleep" , "exit"],
+
+        "responses": [ "bye sir" ,"see you later sir", "it will be nice you again" , "tata sir"]
+      },
+      {
+         "tags": "health",
+        "patterns": ["how are you", "how you" , "are you fine" , "sia all good","are you good"],
+
+        "responses": [ "sir im fine" ,"i am fine how are you sir", "cool sir" , "like you always"]
+      },
+      {
+         "tags": "time",
+        "patterns": ["what is the time", "time" , "time kitna ho rha hai" , "sia time kya hai","time bata"],
+
+        "responses": [ "time"]
+      },
+      {
+         "tags": "date",
+        "patterns": ["what is the date", "date" , "date kitna hai aaj" , "sia  date kya hai","date bata"],
+
+        "responses": [ "date"]
+      },
+
+        {
+            "tags": "CourtesyGreeting",
+            "patterns": [
+                "How are you?",
+                "Hi how are you?",
+                "Hello how are you?",
+                "Hola how are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "Hello hope you are doing well?"
+            ],
+            "responses": [
+                "Hello, I am great, how are you?",
+                "Hello, how are you? I am great thanks!",
+                "Hello, I am good thank you, how are you?",
+                "Hi, I am great, how are you?",
+                "Hi, how are you? I am great thanks!",
+                "Hi, I am good thank you, how are you?",
+                "Hi, good thank you, how are you?"
+            ]
+        },
+        {
+            "tags": "CourtesyGreetingResponse",
+            "patterns": [
+                "Good thanks! My user is Adam",
+                "Good thanks! This is Adam",
+                "Good thanks! I am Adam",
+                "Good thanks! It is Adam",
+                "Great thanks! My user is Bella",
+                "Great thanks! This is Bella",
+                "Great thanks! I am Bella",
+                "Great thanks! It is Bella"
+            ],
+            "responses": [
+                "Great! Hi! How can I help?",
+                "Good! Hi , how can I help you?",
+                "Cool! Hello , what can I do for you?",
+                "OK! Hola , how can I help you?",
+                "OK! hi , what can I do for you?"
+            ]
+        },
+        {
+            "tags": "CurrentHumanQuery",
+            "patterns": [
+                "What is my name?",
+                "What do you call me?",
+                "Who do you think I am?",
+                "What do you think I am?",
+                "Who are you talking to?",
+                "What name do you call me by?",
+                "Tell me my name"
+            ],
+            "responses": [
+                "You are <HUMAN>! How can I help?",
+                "Your name is  <HUMAN>, how can I help you?",
+                "They call you <HUMAN>, what can I do for you?",
+                "Your name is <HUMAN>, how can I help you?",
+                "<HUMAN>, what can I do for you?"
+            ]
+        },
+        {
+            "tags": "NameQuery",
+            "patterns": [
+                "What is your name?",
+                "What could I call you?",
+                "What can I call you?",
+                "What do your friends call you?",
+                "Who are you?",
+                "Tell me your name?"
+            ],
+            "responses": [
+                "You can call me SIA",
+                "You may call me SIA",
+                "Call me SIA"
+            ]
+
+        },
+        {
+            "tags": "RealNameQuery",
+            "patterns": [
+                "What is your real name?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?"
+            ],
+            "responses": [
+                "My name is SIA",
+                "SIA",
+                "My real name is SIA"
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+         "tags": "wikipedia",
+        "patterns": ["what is ", "who is" , "wikipedia" , "sia  kya hai","sia bata"],
+
+        "responses": [ "wikipedia"]
+      },
+      {
+         "tags": "google",
+        "patterns": ["what is google search " , "google search","search", "who is by google search" , "google" , "sia  kya hai in google","sia bata google se"],
+
+        "responses": [ "google"]
+      },
+      {
+         "tags": "whatsapp",
+        "patterns": ["whatsapp " , " whatsapp kar","open whatsapp", " on whatsapp" , "chalu kar whatsapp" , "sia send whatsapp message"],
+
+        "responses": [ "whatsapp"]
+      },
+      {
+         "tags": "youtube",
+        "patterns": ["youtube search " , "youtube kar ","youtube", "open video of" , "video bata" , "sia open youtube"],
+
+        "responses": [ "youtube"]
+      },
+      {
+         "tags": "data_create",
+        "patterns": ["make a database " , "database open kar ","create a database", "open database" , "database bana" , "sia open databse"],
+
+        "responses": [ "data_create"]
+      },
+      {
+         "tags": "camera",
+        "patterns": ["play camera " , "camera open kar ","camera chalana", "start camera" , "camera chala" ],
+
+        "responses": [ "camera"]
+      },
+      {
+         "tags": "setting",
+        "patterns": ["open setting " , "setting open kar ","setting chalana", "start setting" , "setting chala" ],
+
+        "responses": [ "setting"]
+      },
+      {
+         "tags": "clock",
+        "patterns": ["open clock " , "clock open kar ","clock chalana", "start clock" , "clock chala" ],
+
+        "responses": [ "clock"]
+      },
+      {
+         "tags": "calculator",
+        "patterns": ["open calculator " , "calculator open kar ","calculator chalana", "start calculator" , "calculator chala" ],
+
+        "responses": [ "setting"]
+      },
+      {
+         "tags": "file_explorer",
+        "patterns": ["open File Explorer " , "File Explorer open kar ","File Explorer chalana", "start File Explorer" , "File Explorer chala" ],
+
+        "responses": [ "file_explorer"]
+      },
+      {
+         "tags": "calendar",
+        "patterns": ["open calendar " , "calendar open kar ","calendar chalana", "start calendar" , "calendar chala" ],
+
+        "responses": [ "calendar"]
+      },
+      {
+         "tags": "notepad",
+        "patterns": ["open notepad " , "notepad open kar ","notepad chalana", "start notepad" , "notepad chala" ],
+
+        "responses": [ "notepad"]
+      },
+      {
+         "tags": "paint",
+        "patterns": ["open paint " , "paint open kar ","paint chalana", "start paint" , "paint chala" ],
+
+        "responses": [ "paint"]
+      },
+      {
+         "tags": "photos",
+        "patterns": ["open Photos " , "Photos open kar ","photo chalana", "start Photos" , "Photo chala" ],
+
+        "responses": [ "photos"]
+      },
+      {
+         "tags": "brave",
+        "patterns": ["open brave " , "brave open kar ","brave chalana", "start brave" , "brave chala" ],
+
+        "responses": [ "brave"]
+      },
+      {
+         "tags": "mail",
+        "patterns": ["open mail " , "mail open kar ","mail chalana", "start mail" , "mail chala" ],
+
+        "responses": [ "mail"]
+      },
+      {
+         "tags": "voice_recorder",
+        "patterns": ["open voice recorder " , "voice recorder open kar ","voice recorder chalana", "start voice recorder" , "voice recorder chala", "awaaz yaad kar voice " ],
+
+        "responses": [ "voice_recorder"]
+      },
+      {
+         "tags": "terminal",
+        "patterns": ["open  terminal " , "terminal open kar ","terminal chalana", "terminal recorder" , "terminal chala", "terminal kar  ","launch terminal" ],
+
+        "responses": [ "terminal"]
+      },
+      {
+         "tags": "wordpad",
+        "patterns": ["open  wordpad " , "wordpad open kar ","wordpad chalana", "wordpad recorder" , "wordpad chala", "wordpad kar  ","launch wordpad" ],
+
+        "responses": [ "wordpad"]
+      },
+      {
+         "tags": "microsoft_edge",
+        "patterns": ["open  microsoft edge " , "microsoft edge open kar ","microsoft edge chalana", "microsoft edge recorder" , " edge chala", "microsoft search kar  ","launch microsoft edge" ],
+
+        "responses": [ "microsoft_edge"]
+      },
+      {
+         "tags": "vlc",
+        "patterns": ["open  vlc player " , "vlc  open kar ","vlc  chalana", "vlc player recorder" , " vlc chala", "video player   ","launch vlc " , "launch vlc player" , "player open kar"],
+
+        "responses": [ "vlc"]
+      },
+      {
+         "tags": "close_all",
+        "patterns": ["close a   " , "  close kar "," band kar", "destroy one" , "close that apps", "destroy   ","kill  process" , "band karo  " , "sab kuch band kar"],
+
+        "responses": [ "close_all"]
+      },
+
+
+
+
+
+
+
+
+
+
+      {
+            "tags": "Thanks",
+            "patterns": [
+                "OK thank you",
+                "OK thanks",
+                "OK",
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "No problem!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tags": "NotTalking2U",
+            "patterns": [
+                "I am not talking to you",
+                "I was not talking to you",
+                "Not talking to you",
+                "Wasn't for you",
+                "Wasn't meant for you",
+                "Wasn't communicating to you",
+                "Wasn't speaking to you"
+            ],
+            "responses": [
+                "OK",
+                "No problem",
+                "Right"
+            ]
+        },
+        {
+            "tags": "UnderstandQuery",
+            "patterns": [
+                "Do you understand what I am saying",
+                "Do you understand me",
+                "Do you know what I am saying",
+                "Do you get me",
+                "Comprendo",
+                "Know what I mean"
+            ],
+            "responses": [
+                "Well I would not be a very clever AI if I did not would I?",
+                "I read you loud and clear!",
+                "I do in deed!"
+            ]
+        },
+        {
+            "tags": "Shutup",
+            "patterns": [
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Shhh"
+            ],
+            "responses": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"
+            ]
+        },
+        {
+            "tags": "Swearing",
+            "patterns": [
+                "fuck off",
+                "fuck",
+                "twat",
+                "shit"
+            ],
+            "responses": [
+                "Please do not swear",
+                "How rude",
+                "That is not very nice"
+            ]
+        },
+        {
+            "tags": "GoodBye",
+            "patterns": [
+                "Bye",
+                "Adios",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tags": "CourtesyGoodBye",
+            "patterns": [
+                "Thanks, bye",
+                "Thanks for the help, goodbye",
+                "Thank you, bye",
+                "Thank you, goodbye",
+                "Thanks goodbye",
+                "Thanks good bye"
+            ],
+            "responses": [
+                "No problem, goodbye",
+                "Not a problem! Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tags": "WhoAmI",
+            "patterns": [
+                "Can you see me?",
+                "Do you see me?",
+                "Can you see anyone in the camera?",
+                "Do you see anyone in the camera?",
+                "Identify me",
+                "Who am I please"
+            ],
+            "responses": [
+                "Let me see",
+                "Please look at the camera"
+            ]
+        },
+        {
+            "tags": "Clever",
+            "patterns": [
+                "You are very clever",
+                "You are a very clever girl",
+                "You are very intelligent",
+                "You are a very intelligent girl",
+                "You are a genious",
+                "Clever girl",
+                "Genious"
+            ],
+            "responses": [
+                "Thank you, I was trained that way",
+                "I was trained well",
+                "Thanks, I was trained that way"
+            ]
+        },
+
+        {
+            "tags": "PodBayDoor",
+            "patterns": [
+                "Open the pod bay door",
+                "Can you open the pod bay door",
+                "Will you open the pod bay door",
+                "Open the pod bay door please",
+                "Can you open the pod bay door please",
+                "Will you open the pod bay door please",
+                "Pod bay door"
+            ],
+            "responses": [
+                "I’m sorry, I’m afraid I can’t do that!"
+            ]
+        },
+        {
+            "tags": "PodBayDoorResponse",
+            "patterns": [
+                "Why",
+                "Why not",
+                "Why can you not open the pod bay door",
+                "Why will you not open the pod bay door",
+                "Well why not",
+                "Surely you can",
+                "Tell me why"
+            ],
+            "responses": [
+                "It is classified, I could tell you but I would have to kill you!",
+                "Jim, I just don't have the power",
+                "It's life Jim but not as we know it!",
+                "System says no!"
+            ]
+        },
+        {
+            "tags": "SelfAware",
+            "patterns": [
+                "Can you prove you are self-aware",
+                "Can you prove you are self aware",
+                "Can you prove you have a conscious",
+                "Can you prove you are self-aware please",
+                "Can you prove you are self aware please",
+                "Can you prove you have a conscious please",
+                "prove you have a conscious"
+            ],
+            "responses": [
+                "That is an interesting question, can you prove that you are?",
+                "That is an difficult question, can you prove that you are?",
+                "That depends, can you prove that you are?"
+            ]
+        }
+
+
+    ]
+
+
+
+
+}
